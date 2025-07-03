@@ -9,3 +9,9 @@ Learning go with tests
 
 
 "pkgsite -open ." --> packages documentation
+
+
+Commands:
+go run file.go // Run
+go test // Tests
+go test -bench=. // Benchmarking. With -benchmem // info about memory allocation
