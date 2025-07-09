@@ -18,3 +18,5 @@ Commands:
 
 
 FUNCTIONS != METHODS
+
+'nil' is the same as 'null' in other languages
