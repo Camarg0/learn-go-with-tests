@@ -17,6 +17,13 @@ Commands:
 - go test -bench=. // Benchmarking. With -benchmem // info about memory allocation
 
 
-FUNCTIONS != METHODS
+Code:
+.Error() -> Converts an error into a string
+t.Fatal() -> Stop running the test completely 
 
-'nil' is the same as 'null' in other languages
+
+Annotations:
+
+- functions != methods
+- 'nil' is the same as 'null' in other languages
+- GO copies values when you pass them to functions/methods, so if you're writing a function that needs to mutate state you'll need it to take a pointer to the thing you want to change.
