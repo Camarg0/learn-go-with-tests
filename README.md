@@ -17,9 +17,11 @@ Commands:
 - go test -bench=. // Benchmarking. With -benchmem // info about memory allocation
 
 
+
 Code:
 .Error() -> Converts an error into a string
 t.Fatal() -> Stop running the test completely 
+
 
 
 Annotations:
