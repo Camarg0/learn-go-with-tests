@@ -38,7 +38,7 @@ func TestArea(t *testing.T) {
 		shape        Shape
 		areaExpected float64
 	}{
-		{name: "Rectangle", shape: Rectangle{Width: 10, Height: 5}, areaExpected: 25},
+		{name: "Rectangle", shape: Rectangle{Width: 10, Height: 5}, areaExpected: 50},
 		{name: "Circle", shape: Circle{Radius: 10}, areaExpected: 314.1592653589793},
 		{name: "Triangle", shape: Triangle{Base: 3, Height: 4}, areaExpected: 6},
 	}
