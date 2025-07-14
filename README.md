@@ -6,7 +6,7 @@ Learning go with tests
 - Run the test, see that it fails and check the error message is meaningful
 - Write enough code to make the test pass
 - Refactor
-
+- Take a thin slice of functionality and make it work end-to-end
 
 "pkgsite -open ." --> packages documentation
 
